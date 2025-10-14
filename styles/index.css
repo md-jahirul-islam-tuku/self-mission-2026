@@ -123,7 +123,8 @@
   background: rgba(255, 244, 214, 1);
 }
 
-.develop-container {
+.develop-container,
+.community-container {
   max-width: 1128px;
   display: flex;
   justify-content: space-between;
@@ -135,16 +136,21 @@
   width: 50%;
   padding-right: 72px;
 }
-
-.develop-image img {
+.community-image{
+  width: 50%;
+  padding-left: 72px;
+}
+.develop-image img,
+.community-image img {
   width: 100%;
 }
 
-.develop-content {
+.develop-content,
+.community-content {
   width: 50%;
 }
 
-.develop-title {
+.develop-title, .community-title {
   width: 435px;
   color: rgba(51, 51, 51, 1);
   font-family: Poppins;
@@ -154,7 +160,7 @@
   margin: 0;
 }
 
-.develop-description {
+.develop-description, .community-description {
   color: rgba(62, 62, 62, 1);
   font-size: 18px;
   font-weight: 400;
