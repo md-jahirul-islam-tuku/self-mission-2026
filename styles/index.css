@@ -217,4 +217,7 @@
   .hero-title{
     border-left: none;
   }
+  .mission-card-container{
+    flex-direction: column;
+  }
 }
