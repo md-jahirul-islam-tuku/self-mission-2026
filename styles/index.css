@@ -158,7 +158,7 @@
 
 .develop-title,
 .community-title {
-  width: 435px;
+  max-width: 435px;
   color: rgba(51, 51, 51, 1);
   font-family: Poppins;
   font-size: 36px;
@@ -214,10 +214,25 @@
     width: 100%;
     text-align: center;
   }
-  .hero-title{
+
+  .hero-title {
     border-left: none;
   }
-  .mission-card-container{
+
+  .mission-card-container {
     flex-direction: column;
+  }
+
+  .develop-container,
+  .application-container {
+    flex-direction: column;
+  }
+  .develop-image, .community-image, .develop-content, .community-content{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .community-container{
+    flex-direction: column-reverse;
   }
 }
