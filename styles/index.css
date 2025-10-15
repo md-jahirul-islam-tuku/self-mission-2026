@@ -187,11 +187,34 @@
   font-family: Yeseva One;
   margin-bottom: 0;
 }
-.footer span{
+
+.footer span {
   color: rgba(255, 89, 89, 1);
 }
+
 .footer p {
   margin-top: 0;
   font-size: 14px;
   font-weight: 400;
+}
+
+.disabled {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .hero-container {
+    flex-direction: column-reverse;
+  }
+
+  .hero-image,
+  .hero-content,
+  .application-image,
+  .application-content {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-title{
+    border-left: none;
+  }
 }
